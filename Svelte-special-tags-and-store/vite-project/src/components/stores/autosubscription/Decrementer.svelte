@@ -1,0 +1,12 @@
+<script>
+	import { count } from './stores.js';
+
+	function decrement() {
+		// count.update(n => n - 1);
+        $count = $count - 1
+	}
+</script>
+
+<button on:click={decrement}>
+	-
+</button>
